@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Challenge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('ctf-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 0;
+        }
+
+        .text-orange {
+            color: #FFA500;
+        }
+
+        .btn-orange {
+            background-color: #FFA500;
+            border-color: #FFA500;
+            color: #000;
+        }
+
+        .btn-orange:hover {
+            background-color: #cc8400;
+            border-color: #cc8400;
+        }
+
+        .bg-black {
+            background-color: #000;
+        }
+
+        .bg-dark {
+            background-color: #1a1a1a !important;
+        }
+
+        .card {
+            border: 1px solid #FFA500;
+            background-color: #000;
+            color: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://www.abmcollege.com/wp-content/uploads/2024/06/ABM-Logo-Hz.png" width="167" height="33"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#challenges">Challenges</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-section text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Welcome to CTF Challenge</h1>
+            <p class="lead">Test your skills and solve 10 exciting challenges!</p>
+            <a href="#challenges" class="btn btn-orange btn-lg">View Challenges</a>
+        </div>
+    </section>
+    <section id="challenges" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center text-orange mb-5">CTF Challenges</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 1</h5>
+                            <p class="card-text">Find the Hidden HTML Flag</p>
+                            <a href="ch1.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 2</h5>
+                            <p class="card-text">Decode CSS</p>
+                            <a href="ch2.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 3</h5>
+                            <p class="card-text">Decrypt the JavaScript</p>
+                            <a href="ch3.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 4</h5>
+                            <p class="card-text">Extract Data from an Image</p>
+                            <a href="ch4.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 5</h5>
+                            <p class="card-text">Decode Base64 Encoded Message</p>
+                            <a href="ch5.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 6</h5>
+                            <p class="card-text">Crack the MD5 Hash</p>
+                            <a href="ch6.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 7</h5>
+                            <p class="card-text">Decode the SHA-256 Hash</p>
+                            <a href="ch7.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 8</h5>
+                            <p class="card-text">Translate Leet Speak</p>
+                            <a href="ch8.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 9</h5>
+                            <p class="card-text">Decrypt the JavaScript Flag</p>
+                            <a href="ch9.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Challenge 10</h5>
+                            <p class="card-text">Solve the Poem Puzzle</p>
+                            <a href="ch10.html" class="btn btn-orange">Start Challenge</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="py-5 bg-black text-white">
+        <div class="container">
+            <h2 class="text-center text-orange mb-5">About CTF Challenge</h2>
+            <p class="text-center">This CTF Challenge is designed to test your skills in various areas of cybersecurity. With 10 unique challenges, you'll have the opportunity to showcase your expertise and learn new techniques.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; ABM CTF Challenge</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

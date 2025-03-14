@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 9: JavaScript Encryption</title>
+    <link rel="stylesheet" href="styles/ch9.css">
+    <script src="scripts/ch9.js"></script>
+</head>
+<body>
+    <div class="challenge-box">
+        <h2>Challenge 9: JavaScript Encryption</h2>
+        <p>Decrypt the following JavaScript</p>
+        <div class="encrypted-flag">
+            <p><strong>Encrypted Flag:</strong> <span id="encrypted-flag"></span></p>
+        </div>
+        <div class="return-home">
+            <a href="home.html">
+                <button>Return Home</button>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("encrypted-flag").textContent = encryptFlag("ABM{javascript_encryption_is_fun}");
+    </script>
+</body>
+</html>

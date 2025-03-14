@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 4: Hidden in the Image</title>
+    <style>
+        /* Integrated CSS for Challenge 4 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .challenge-box {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .challenge-box h2 {
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .image-container button {
+            background-color: #FFA500;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #000;
+            cursor: pointer;
+        }
+
+        .image-container button:hover {
+            background-color: #cc8400;
+        }
+
+        .return-home button {
+            background-color: #FFA500;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #000;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .return-home button:hover {
+            background-color: #cc8400;
+        }
+    </style>
+</head>
+<body>
+    <div class="challenge-box">
+        <h2>Challenge 4: Hidden in the Image</h2>
+        <p>Download the image below and use steganography tools to find the hidden flag.</p>
+        <div class="image-container">
+            <img src="im4.png" alt="Hidden Flag Image">
+            <a href="im4.png" download>
+                <button>Download Image</button>
+            </a>
+        </div>
+        <div class="return-home">
+            <a href="home.html">
+                <button>Return Home</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
